@@ -1,0 +1,8 @@
+def decreasing_star_pattern(n):
+    for i in range(n):
+        for j in range(i+1):
+            print("", end='')
+        for j in range(i,n):
+            print("*", end='')
+        
+decreasing_star_pattern(5)
