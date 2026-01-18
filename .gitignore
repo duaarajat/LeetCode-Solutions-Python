@@ -6,3 +6,10 @@ Chapter4/
 own/
 pattern_printing/
 XIM/
+# Ignore all PDF and ZIP files
+*.pdf
+*.zip
+
+# Ignore specific images or extra scripts
+t_500x300.jpg
+my_file6.py
